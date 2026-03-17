@@ -117,6 +117,7 @@
 #celsius = float(input("Temperatura em Celsius: "))
 #fahrenheit = (celsius * 1.8) + 32
 
+<<<<<<< HEAD
 #print(f"A temperatura de ª {celsius} equivale a ª{fahrenheit}")
 
 #dias_alugados =int(input("Quantos dias o carro foi alugado?"))
@@ -126,3 +127,6 @@
 #valor_total = dia + km
 #print(f"Alugado por: {dias_alugados} Dias. R$60 o dia, o que dá R${dia}, Foi rodado {km_dias}KM | R$0.15 por KM, que dá {km}, total a pagar {valor_total:.2f}.")
 
+=======
+#print(f"A temperatura de ª{celsius} equivale a ª{fahrenheit}")
+>>>>>>> c5e7e0e61a3b11cc6c5270deb60555640dbc7599
