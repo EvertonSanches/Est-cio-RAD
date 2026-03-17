@@ -84,10 +84,8 @@
 
 #Exercicio10:
 
-carteira = float(input("Quanto dinheiro você possue na carteira? R$"))
+#carteira = float(input("Quanto dinheiro você possue na carteira? R$"))
 
-dolar = 5.21
+#dolar = carteira/5.20
 
-conversor = carteira/dolar
-
-print(f"Com R${carteira} você pode comprar ${conversor:.2f} Dolar")
+#print(f"Com R${carteira} você pode comprar ${dolar:.2f} Dolar")
