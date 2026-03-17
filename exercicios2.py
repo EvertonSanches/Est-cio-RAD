@@ -89,3 +89,19 @@
 #dolar = carteira/5.20
 
 #print(f"Com R${carteira} você pode comprar ${dolar:.2f} Dolar")
+
+#Exercício11
+#largura = float(input("Largura da parede: "))
+#altura = float(input("Altura da parede: "))
+#area = largura * altura
+#tinta = area / 2
+#print(f"sua parede tem a dimensão de {largura} x {altura} e sua area é de  {area}m², você vai precisar de {tinta}l de tinta.")
+
+#Exercício12
+
+preco_produto = float(input("Valor do produto: "))
+desconto_produto = preco_produto - (preco_produto * 0.05)
+
+print(f"O valor do produto de R${preco_produto} na promoção sai por {desconto_produto:.2f} com o desconto de 5%")
+
+#Exercício13
