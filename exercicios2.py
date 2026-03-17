@@ -99,9 +99,22 @@
 
 #Exercício12
 
-preco_produto = float(input("Valor do produto: "))
-desconto_produto = preco_produto - (preco_produto * 0.05)
+#preco_produto = float(input("Valor do produto: "))
+#desconto_produto = preco_produto - (preco_produto * 5 /100)
 
-print(f"O valor do produto de R${preco_produto} na promoção sai por {desconto_produto:.2f} com o desconto de 5%")
+#print(f"O valor do produto de R${preco_produto} na promoção sai por {desconto_produto:.2f} com o desconto de 5%")
 
 #Exercício13
+
+#salario_atual = float(input("Qual salario atual do funcionario? R$"))
+
+#aumento = salario_atual + (salario_atual * 15 /100)
+
+#print(f"Um funcionario que ganhava R${salario_atual:.2f}, com 15% de aumento, passa a receber R${aumento:.2f}")
+
+#Exercício14
+
+#celsius = float(input("Temperatura em Celsius: "))
+#fahrenheit = (celsius * 1.8) + 32
+
+#print(f"A temperatura de ª{celsius} equivale a ª{fahrenheit}")
