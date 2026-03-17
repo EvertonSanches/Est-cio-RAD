@@ -20,11 +20,12 @@
 #resultado = verificar_aprovacao(media_final)
 #print(f"Média:{media_final:.2f} - Resultado: {resultado}")
 
-def calcular_preco_final(valor_produto:float) -> float:
+"""def calcular_preco_final(valor_produto:float) -> float:
     if valor_produto > 100:
         return valor_produto - (valor_produto/10)
     else:
         return valor_produto
 num=float(input("Valor do produto: "))
 resultado = calcular_preco_final(num)
-print(resultado)
+print(resultado)"""
+
