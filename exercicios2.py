@@ -117,6 +117,23 @@
 #celsius = float(input("Temperatura em Celsius: "))
 #fahrenheit = (celsius * 1.8) + 32
 
+def calcular_salario(salario_base: float) -> float:
+    salario_atual = salario_base
+    if salario_atual <= 1500:
+        salario_atual = salario_atual + (salario_atual * 15/100)
+
+    elif salario_atual <= 3000:
+        salario_atual = salario_atual + (salario_atual * 10/100)
+
+    else:
+        salario_atual = salario_atual + (salario_atual * 5/100)
+    return salario_atual
+novo_salario= calcular_salario(1580)
+
+print(novo_salario)
+
+
+
 <<<<<<< HEAD
 #print(f"A temperatura de ª {celsius} equivale a ª{fahrenheit}")
 
