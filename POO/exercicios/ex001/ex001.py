@@ -18,3 +18,16 @@ g1.nome = "Everton"
 g1.idade = 26
 g1.aniversario()
 print(g1.mensagem())
+
+g2 = Gafanhoto()
+g2.nome = "Maria"
+g2.idade = 46
+g2.aniversario()
+print(g2.mensagem())
+
+g3 = Gafanhoto()
+g3.nome = "Robson"
+g3.idade = 33
+g3.aniversario()
+g3.aniversario()
+print(g3.mensagem())
