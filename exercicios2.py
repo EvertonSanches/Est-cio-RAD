@@ -117,7 +117,23 @@
 #celsius = float(input("Temperatura em Celsius: "))
 #fahrenheit = (celsius * 1.8) + 32
 
-<<<<<<< HEAD
+def calcular_salario(salario_base: float) -> float:
+    salario_atual = salario_base
+    if salario_atual <= 1500:
+        salario_atual = salario_atual + (salario_atual * 15/100)
+
+    elif salario_atual <= 3000:
+        salario_atual = salario_atual + (salario_atual * 10/100)
+
+    else:
+        salario_atual = salario_atual + (salario_atual * 5/100)
+    return salario_atual
+novo_salario= calcular_salario(1580)
+
+print(novo_salario)
+
+
+
 #print(f"A temperatura de ª {celsius} equivale a ª{fahrenheit}")
 
 #dias_alugados =int(input("Quantos dias o carro foi alugado?"))
@@ -127,6 +143,6 @@
 #valor_total = dia + km
 #print(f"Alugado por: {dias_alugados} Dias. R$60 o dia, o que dá R${dia}, Foi rodado {km_dias}KM | R$0.15 por KM, que dá {km}, total a pagar {valor_total:.2f}.")
 
-=======
+
 #print(f"A temperatura de ª{celsius} equivale a ª{fahrenheit}")
->>>>>>> c5e7e0e61a3b11cc6c5270deb60555640dbc7599
+
