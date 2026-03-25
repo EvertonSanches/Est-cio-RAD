@@ -29,11 +29,31 @@
 #Exercício18
 
 
-import math
-angulo = float(input('Digite o ângulo que voce deseja: '))
-seno = math.sin(math.radians(angulo))
-print(f'O ângulo de {angulo} tem o seno de {seno:.2f}')
-cosseno = math.cos(math.radians(angulo))
-print(f'O ãngulo de {angulo} tem a cosseno de {cosseno:.2f}')
-tangente = math.tan(math.radians(angulo))
-print(f'O ângulo de {angulo} tem a tangente de {tangente:.2f}')
+#mport math
+#angulo = float(input('Digite o ângulo que voce deseja: '))
+#seno = math.sin(math.radians(angulo))
+#print(f'O ângulo de {angulo} tem o seno de {seno:.2f}')
+#cosseno = math.cos(math.radians(angulo))
+#print(f'O ãngulo de {angulo} tem a cosseno de {cosseno:.2f}')
+#tangente = math.tan(math.radians(angulo))
+#print(f'O ângulo de {angulo} tem a tangente de {tangente:.2f}')
+
+#Exercicío19
+#import random
+#n1 =str(input('Primeiro Aluno: '))
+#n2 = str(input('Segundo Aluno: '))
+#n3 = str(input('Terceiro Aluno: '))
+#n4 = str(input('Quarto Aluno: '))
+#lista = [n1, n2, n3, n4]
+#escolhido = random.choice(lista)
+#print(f"O aluno escolhido foi {escolhido}")
+
+#import random
+#n1 = str(input('Primeiro Aluno: '))
+#n2 = str(input('Segundo Aluno: '))
+#n3 = str(input('Terceiro Aluno: '))
+#n4 = str(input('Quarto Aluno: '))
+#lista = [n1, n2, n3, n4]
+#random.shuffle(lista)
+#print(f'A ordem de apresentação será')
+#print(lista)
