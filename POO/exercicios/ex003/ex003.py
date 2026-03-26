@@ -1,3 +1,5 @@
+from rich import print
+from rich import inspect
 #Classe:
 class ContaBancaria:
     """
@@ -24,8 +26,11 @@ variavel = ContaBancaria (id, nome, saldo)
             self.saldo -= valor
             print(f"Saque de R${valor:,.2f} autorizado na conta {self.id}")
 #Uso do Objeto:
-c1 = ContaBancaria(112, "Everton", saldo=3000)
-c1.depositar(500)
-c1.sacar(3550)
-print(c1)
+c = ContaBancaria(111, "Jose", 500)
+#c1 = ContaBancaria(112, "Everton", saldo=3000)
+#c1.depositar(500)
+#c1.sacar(3550)
+#print(c1)
+
+
 
